@@ -1,0 +1,99 @@
+#mySidenav a {
+    position: fixed;
+    left: -120px;
+    transition: 0.3s;
+    padding: 16px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #home {
+    top: 130px;
+    background-color: #03254c;
+  }
+  
+  #pp1 {
+    top: 190px;
+    background-color: #03254c;
+  }
+  
+  #pp2 {
+    top: 270px;
+    background-color: #03254c;
+  }
+  
+  #pp3 {
+    top: 350px;
+    background-color: #03254c;
+  }
+  #pp4 {
+    top: 430px;
+    background-color: #03254c;
+  }
+  #pp5 {
+    top: 510px;
+    background-color: #03254c;
+  }
+@media screen and (max-height : 400px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.footer {
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #03254c;
+    color: whitesmoke;
+    text-align: center;
+ }
+ *{
+     box-sizing: border-box;
+ }
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+ 
+  @media screen and (max-width: 400px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,73 @@
+.dropbtn {
+    background-color: #03254c;
+    color: white;
+    font-family: 'Cinzel', serif;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #d0efff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #2a9df4;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  hr.new{
+    border-top: 3px dotted #03254c;
+  }
+  .fa {
+    padding: 15px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 60%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-whatsapp {
+  background: green;
+  color: white;
+}
